@@ -1,10 +1,10 @@
-# Memory Efficient Kernel Approximation
-*Authors : Marin BOUTHEMY*
+# Implementation of Stochastically Controlled Stochastic Gradient Method
+*Authors : Marin BOUTHEMY & Kossi NEROMA*
 
 
-This code is an implementation of the Memory Efficient Kernel Approximation (MEKA) algorithm designed by [Si Si & al.](http://www.jmlr.org/papers/volume18/15-025/15-025.pdf).
+This code is an implementation of the Stochastically Controlled Stochastic Gradient Method (SCSG) algorithm designed by [Lihua Lei & al.](https://arxiv.org/abs/1706.09156).
 
-To use it just run the main function and test it on the ijcnn1 dataset.
+We have implemented it and test it with a convex and a non-convex problem.
 
 ## Requirements
 The library has some requirements :
@@ -21,7 +21,4 @@ pip install -r requirements.txt
 ## Files structure
 The library contains the following files:
 
- - [main.py](https://github.com/Marin35/memory-efficient-kernel-approximation/blob/master/src/main.py) -> Run the algorithm and create differents kernel matrices (based on MEKA, Nystrom and classic computation) and calculate the score for each of the matrix.
- - [meka.py](https://github.com/Marin35/memory-efficient-kernel-approximation/blob/master/src/meka.py) -> Implementation of the MEKA algorithm, composed on the 3 steps.
- - [utils.py](https://github.com/Marin35/memory-efficient-kernel-approximation/blob/master/src/utils.py) -> Functions such as the computation of gaussian kernel or the Nystrom approximation algorithm.
 
